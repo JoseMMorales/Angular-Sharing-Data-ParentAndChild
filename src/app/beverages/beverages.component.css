@@ -1,0 +1,20 @@
+.child {
+  border: 1px solid gray;
+  margin: 20px;
+  padding: 20px;
+}
+
+button {
+  margin-left: 5px;
+  color: #fff;
+  background-color: #1976d2;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input {
+  height: 22px;
+}
