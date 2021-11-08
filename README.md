@@ -8,6 +8,31 @@
 * ng serve -o 
 * ng g c beverages
 
+## From Parent to CHild Component:
+
+We use [@Input()](https://angular.io/guide/inputs-outputs) decorator to send today's beverage from Parent to Child component. Importing Input from angular/core(Child) and assigning data to be displayed(Child). Making connection between parent/child and transferring data thanks to secundary property(beverage) in app-beverages selector(HTML file). Adding new data value(Coke) in parent component(TS file).
+
+* TS beverage file(Child)
+![Screenshot 2021-11-08 at 20 29 44](https://user-images.githubusercontent.com/43299285/140805465-665bf69e-797e-4d26-b60e-307662257cd5.png)
+)
+
+* HTML beverage file(Child)
+![Screenshot 2021-11-08 at 20 31 39](https://user-images.githubusercontent.com/43299285/140805753-8a5f13fc-3228-45c2-ba36-297daebf3624.png)
+
+* TS app file(Parent)
+![Screenshot 2021-11-08 at 20 38 13](https://user-images.githubusercontent.com/43299285/140806657-efc75840-75c7-4c23-8daa-e5277a138015.png)
+)
+
+* HTML app file(Parent)
+![Screenshot 2021-11-08 at 20 38 47](https://user-images.githubusercontent.com/43299285/140806727-70ea645b-47bb-4465-983a-264c4e3803b0.png)
+)
+
+## From Child to Parent Component:
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
