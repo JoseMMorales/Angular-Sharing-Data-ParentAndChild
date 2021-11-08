@@ -19,7 +19,6 @@ We use [@Input()](https://angular.io/guide/inputs-outputs) decorator to send tod
 <div align="center">
 
 ![Screenshot 2021-11-08 at 20 29 44](https://user-images.githubusercontent.com/43299285/140805465-665bf69e-797e-4d26-b60e-307662257cd5.png)
-)
 
 </div>
 
@@ -34,7 +33,6 @@ We use [@Input()](https://angular.io/guide/inputs-outputs) decorator to send tod
 <div align="center">
 
 ![Screenshot 2021-11-08 at 20 38 13](https://user-images.githubusercontent.com/43299285/140806657-efc75840-75c7-4c23-8daa-e5277a138015.png)
-)
 
 </div>
 
@@ -42,7 +40,6 @@ We use [@Input()](https://angular.io/guide/inputs-outputs) decorator to send tod
 <div align="center">
 
 ![Screenshot 2021-11-08 at 20 38 47](https://user-images.githubusercontent.com/43299285/140806727-70ea645b-47bb-4465-983a-264c4e3803b0.png)
-)
 
 </div>
 
@@ -61,7 +58,6 @@ We use [@Output()](https://angular.io/guide/inputs-outputs) decorator to send da
 <div align="center">
 
 ![Screenshot 2021-11-08 at 21 20 41](https://user-images.githubusercontent.com/43299285/140812217-f8794b86-2a6b-4b19-8c3a-3b33b9fa74c2.png)
-)
 
 </div>
 
@@ -76,7 +72,6 @@ We use [@Output()](https://angular.io/guide/inputs-outputs) decorator to send da
 <div align="center">
 
 ![Screenshot 2021-11-08 at 21 32 57](https://user-images.githubusercontent.com/43299285/140813901-4008c88e-1f03-4ec5-8379-dd034558f1e1.png)
-)
 
 </div>
 
