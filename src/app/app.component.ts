@@ -7,5 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SharingDataParentAndChild';
-  currentBeverage = "Coke"
+  currentBeverage = "Coke";
+  beverages = ["Milk", "Tea", "Coffee", "Juice"];
+
+  addBeverage(newBeverage: string) {
+    this.beverages.push(newBeverage);
+    this.clearInput();
+  }
+
+  clearInput() {
+    let input = <HTMLInputElement>document.getElementById('beverage-input');
+    input.value='';
+  }
 }

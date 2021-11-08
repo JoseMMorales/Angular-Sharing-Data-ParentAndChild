@@ -29,21 +29,36 @@ We use [@Input()](https://angular.io/guide/inputs-outputs) decorator to send tod
 
 ## From Child to Parent Component:
 
+We use [@Output()](https://angular.io/guide/inputs-outputs) decorator to send data from Child to PArent component. Importing Output and EventEmitter from angular/core in secundary component. then, creating an event newBeverageEvent passing string type, emitting the string value in the function addNewBeverage for linking the events with the tag newBeverage and click event passing as parameter addNewBeverage.value. Creating in parent component array with beverages to send input from child and updating with $event (event binding) data the beverage.
+
+* TS beverage file(Child)
+![Screenshot 2021-11-08 at 21 16 05](https://user-images.githubusercontent.com/43299285/140811648-06fc96b2-3fe1-4ee0-b181-7174b28c444c.png)
+
+* HTM beverage file(Child)
+![Screenshot 2021-11-08 at 21 20 41](https://user-images.githubusercontent.com/43299285/140812217-f8794b86-2a6b-4b19-8c3a-3b33b9fa74c2.png)
+)
+
+* TS app file(Parent)
+![Screenshot 2021-11-08 at 21 27 14](https://user-images.githubusercontent.com/43299285/140813035-3e4c2cb4-20ea-4abc-9b06-633e2303a6e6.png)
+
+* HTML app file(Parent)
+![Screenshot 2021-11-08 at 21 32 57](https://user-images.githubusercontent.com/43299285/140813901-4008c88e-1f03-4ec5-8379-dd034558f1e1.png)
+)
+
+## How to clean input after adding beverage
+
+#### Two possible solutions:
+
+* Adding `newBeverage.value=''` in the button to clean the value entered in input.(Child Component).
+
+![Screenshot 2021-11-08 at 21 41 24](https://user-images.githubusercontent.com/43299285/140815000-edb6ecf8-37d6-495d-8ae3-a2b9858ab89b.png)
+
+* Creating clearInput function to clean the value after adding.
+
+![Screenshot 2021-11-08 at 21 45 54](https://user-images.githubusercontent.com/43299285/140815541-1cc5457f-6385-4c64-bdca-35335a7da955.png)
 
 
+###### Further visual info about this practice.
+[Click Here](https://www.youtube.com/watch?v=qspoPXaF_Aw)
 
 
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
