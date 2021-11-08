@@ -1,5 +1,14 @@
 # SharingDataParentAndChild
 
+![Screenshot 2021-11-08 at 20 00 33](https://user-images.githubusercontent.com/43299285/140801737-001f27f1-16c6-4103-a8a9-4684a808a6ee.png)
+
+## Initial Commands:
+
+* ng new (Name of the Project)
+* ng serve -o 
+* ng g c beverages
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
 ## Development server
