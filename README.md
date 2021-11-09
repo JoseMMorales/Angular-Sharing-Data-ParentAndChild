@@ -93,6 +93,14 @@ We use [@Output()](https://angular.io/guide/inputs-outputs) decorator to send da
 
 </div>
 
+## Outcome of Parent/Child sharing Data
+
+<div align="center">
+
+![Screenshot 2021-11-09 at 08 01 28](https://user-images.githubusercontent.com/43299285/140877187-64b567db-42c2-4ad3-8691-eb942568320a.png)
+
+</div>
+
 ###### Further visual info about this practice.
 [Click Here](https://www.youtube.com/watch?v=qspoPXaF_Aw)
 
