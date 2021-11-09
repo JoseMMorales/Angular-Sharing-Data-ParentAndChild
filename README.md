@@ -45,7 +45,7 @@ We use [@Input()](https://angular.io/guide/inputs-outputs) decorator to send tod
 
 ## From Child to Parent Component:
 
-We use [@Output()](https://angular.io/guide/inputs-outputs) decorator to send data from Child to PArent component. Importing Output and EventEmitter from angular/core in secundary component. then, creating an event newBeverageEvent passing string type, emitting the string value in the function addNewBeverage for linking the events with the tag newBeverage and click event passing as parameter addNewBeverage.value. Creating in parent component array with beverages to send input from child and updating with $event (event binding) data the beverage.
+We use [@Output()](https://angular.io/guide/inputs-outputs) decorator to send data from Child to Parent component. Importing Output and EventEmitter from angular/core in secundary component. then, creating an event newBeverageEvent with string type, emitting the string value in the function addNewBeverage for linking the events with the tag newBeverage and click event passing as parameter addNewBeverage.value. Creating in parent component array with beverages to send input from child and updating $event (event binding) data with beverage in the input.
 
 * TS beverage file(Child)
 <div align="center">
